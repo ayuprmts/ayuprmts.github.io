@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Porto Ayume</title>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
@@ -18,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#About">About</a>
+                <a class="nav-link" aria-current="page" href="#About">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Projects">Projects</a>
@@ -39,52 +41,132 @@
       </nav>
       <!-- Navbar end -->
 
-      <section id="About bg-danger">
-        <!-- Carousel -->
-        <div class="mx-auto">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/logo_miwa.png" class="d-block w-100" alt="miwa">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/Cosplay.jpg" class="d-block w-100" alt="jabami">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/ayu.jpg" class="d-block w-100" alt="cume">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+      <section id="About" class="p-4">
+        <!-- jumbotron 5 -->
+        <div class="p-5 mb-4 bg-body-secondary rounded-3">
+          <div class="container-fluid py-5 row">
+            <div class="col">
+              <h1 class="display-5 fw-bold">
+                Ayu Permata Sari
+              </h1>
+              <p class="col fs-4">
+                the most beautiful woman in the entire universe. Also lovely gf.
+              </p>
+            </div>
+            <div class="col text-center">
+              <img class="w-50 rounded-circle" src="img/ayu.jpg" alt="">
+            </div>
+
+          </div>
         </div>
-          <!-- Carousel end -->
+        <!-- jumbotron end -->
 
       </section>
 
-      <section id="Projects">
+      <section id="Projects" class="p-4">
+        <h1 class="text-center fw-bold">Projects</h1>
+        <!-- cards -->
+        <div class="p-5 mb-4 bg-body-secondary rounded-3">
+          <div class="container-fluid row">
+            <div class="card col" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
 
+            <div class="card col" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card col" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <!-- cards end -->
+
+          </div>
+        </div>
       </section>
 
-      <section id="Education">
-        
+      <section id="Education" class="p-4">
+        <h1 class="text-center fw-bold">Education</h1>
+        <div class="p-5 mb-4 bg-body-secondary rounded-3">
+          <!-- carousel -->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/smk11.png" class="d-block w-100 mx-auto" alt="SMK">
+              </div>
+              <div class="carousel-item">
+                <img src="img/smp4.png" class="d-block w-100 mx-auto" alt="SMP">
+              </div>
+              <div class="carousel-item">
+                <img src="img/upi.png" class="d-block w-100 mx-auto" alt="UPI">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- carousel end -->
+          
+          <div class="py-5">
+            <h1 class="fw-bold">
+              Ayu pernah sekolah di:
+            </h1>
+            <p class="fs-4">
+              SMPN 4 CIMAHI
+              SMKN 11 BANDUNG
+              UPI PURWAKARTA EHEHEHEH
+            </p>
+          </div>
+        </div>
       </section>
 
-      <section id="Experience">
-        
+      <section id="Experience p-4">
+        <h1 class="text-center fw-bold">Experience</h1>
+        <div class="p-5 mb-4 bg-body-secondary rounded-3">
+          <h2 class="fw-bold">
+            Miwa Style
+          </h2>
+        </div>
       </section>
 
       <section id="Contact">
-        
+        <h1 class="text-center fw-bold">Contact</h1>
+        <div class="p-5 mb-4 bg-body-secondary rounded-3">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
       </section>
 
-    <!-- js bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <footer>
+        <p class="text-center">
+          Punya Ayu 🍊
+        </p>
+      </footer>
   </body>
 </html>
