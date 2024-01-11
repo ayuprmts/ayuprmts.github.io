@@ -4,6 +4,10 @@ body, html {
     height: 100%;
   }
 
+/* #About {
+  padding-top: 5px;
+} */
+
 .carousel-inner img {
-    margin: auto;
+      margin: auto;
 }
