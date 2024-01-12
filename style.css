@@ -8,6 +8,19 @@ body, html {
   padding-top: 5px;
 } */
 
+/* /* .navbar {
+      shadow */
+/* #Education {
+  background-color: #f3b184; */
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    flex: 1 0 auto;
+}
 .carousel-inner img {
       margin: auto;
 }
